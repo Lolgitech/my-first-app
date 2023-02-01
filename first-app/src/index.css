@@ -35,6 +35,20 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: red;
+}
+
+h2 {
+  color: rgb(34, 23, 139);
+}
+
+h3 {
+  color: darkgreen;
+  font-family: fantasy;
+}
+
+h4 {
+  color: rgb(0, 17, 255);
 }
 
 button {

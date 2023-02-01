@@ -3,6 +3,7 @@ import ComponentWithProps from "./assets/components/ComponentWithProps";
 import PropertiesDesructuring from "./assets/components/PropertiesDestructuring";
 import ComponentWithChildren from "./assets/components/ComponentWithChildren";
 
+import WebCamComponent from "./assets/components/SecondaryComponents/WebCamComponent";
 import "./App.css";
 import Header from "./assets/components/MainComponents/Header";
 import Main from "./assets/components/MainComponents/Main";
@@ -14,21 +15,23 @@ function App() {
       <Header />
 
       <Main />
+      <WebCamComponent />
 
       <ComponentBasic alt="mittbilde" />
 
       {/* du kan ligge bilde i app, utenfor components */}
 
-      <ComponentWithProps title="Component with props" anotherName="Some text here" />
-     
+      <ComponentWithProps
+        title="Component with props"
+        anotherName="Some text here"
+        className="component-basic"
+      />
+
       <ComponentWithChildren />
-       
-      
 
       <PropertiesDesructuring />
 
       <Footer />
-      
     </div>
   );
 }
@@ -36,7 +39,6 @@ function App() {
 export default App;
 
 // FUTURE IMPLEMENTATIONS FOLLOWS:
-
 
 {
   /* <ol>

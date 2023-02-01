@@ -3,22 +3,19 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(205, 155, 224);
 }
 
 /* klasse */
 .testbilde {
-
-  color: brown;
+  padding-bottom: 3rem;
 }
 /* id */
 #testerbilde {
-  color:black
+  color: black;
+  padding-bottom: 3rem;
 }
 /* id overskriver klasse */
-
-
-
 
 /* .logo {
   height: 6em;
